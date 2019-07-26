@@ -1,0 +1,54 @@
+.mainbox{
+        width:500px;
+        height:200px;
+        border:2px solid red;
+        border-radius: 10px;
+        }
+            
+            .blue{
+                height: 300px;
+                width: 600px;
+                border: 2px solid blue;
+                border-radius: 10px;
+            }
+            
+            .red{
+                height: 190px;
+                width: 220px;
+                border: 2px solid red;
+                border-radius: 10px;
+                float: left;
+                margin: 2px 0 0 5px;
+                padding: 100px 0 0 70px;
+            }
+            .red span{
+                color:green;
+                font-family: sans-serif;
+                font-size: 16px;
+                font-style: italic;
+                text-align: center;
+            }
+            .green{
+                height: 190px;
+                width: 200px;
+                border: 2px solid green;
+                border-radius: 10px;
+                float: right;
+                margin: 2px 2px 0 5px;
+                padding: 100px 0 0 90px;
+            }
+            .green span{
+                color:red;
+                font-family: sans-serif;
+                font-size: 16px;
+                font-style: italic;
+                text-align: center;
+            }
+            .green span a{
+                color: red;
+                text-decoration: none;
+            }
+            .green span a:hover{
+                color: green;
+                text-decoration: underline;
+            }
