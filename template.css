@@ -1,0 +1,41 @@
+body{
+    
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+.mainsite{
+height:1000px;
+width:1000px;
+background-color: #FFFFFF;
+BORDER: 1PX SOLID RED;
+    margin: 0 auto;
+}
+.header{
+height:100px;
+width:990px;
+background-color: #FFFFFF;
+BORDER: 1PX SOLID RED;
+    margin: 0 auto;
+}
+.topmenu{
+height:100px;
+width:990px;
+background-color: #FFFFFF;
+BORDER: 1PX SOLID blue;
+    margin: 0 auto;
+}
+.container{
+height:550px;
+width:990px;
+background-color: #FFFFFF;
+BORDER: 1PX SOLID RED;
+    margin: 0 auto;
+}
+.footer{
+height:100px;
+width:990px;
+background-color: #FFFFFF;
+BORDER: 1PX SOLID RED;
+    margin: 0 auto;
+}
