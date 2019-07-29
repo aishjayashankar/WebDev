@@ -1,0 +1,25 @@
+.maroon{
+                height: 300px;
+                width: 600px;
+                border: 2px solid maroon;
+                border-radius: 10px;
+            }
+            
+            .green{
+                height: 190px;
+                width: 220px;
+                border: 2px solid green;
+                border-radius: 10px;
+                float: left;
+                margin: 2px 0 0 5px;
+                padding: 100px 0 0 70px;
+            }
+ .red{
+                height: 190px;
+                width: 200px;
+                border: 2px solid red;
+                border-radius: 10px;
+                float: right;
+                margin: 2px 2px 0 5px;
+                padding: 100px 0 0 90px;
+            }
