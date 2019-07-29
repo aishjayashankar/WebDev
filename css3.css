@@ -1,0 +1,136 @@
+.b-radius{
+width: 500px;
+height: 200px;
+background-color: aqua;
+-webkit-box-shadow: 10px 5px 25px 5px #F23AA8;
+box-shadow: 10px 5px 25px 5px #F23AA8;
+}
+
+.t-shadow{
+color: aqua;
+font-family: sans-serif;
+font-size: 20px;
+text-shadow: 10px 20px 20px #030BFF;
+}
+
+.text-col{
+color: rgba(22, 50, 50, 25);
+}
+.box-col{
+width: 400px;
+height: 100px;
+background-color: rgba(11, 50, 15, 50);
+}
+
+@font-face {
+  font-family: "arial";
+  src: url("fantasy.eot?") format("eot"),
+  url("fantasy.woff") format("woff"),
+  url("fantasy.ttf") format("truetype");
+}
+
+.col{
+     width: 600px;
+    height: 100px;
+ -moz-column-count: 2;
+-moz-column-gap: 20px;
+-webkit-column-count: 2;
+-webkit-column-gap:15px;
+column-count: 2;
+column-gap: 50px;
+}
+
+.box-sizing{
+width: 400px;
+height: 200px; 
+border: 2px solid red;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.b-resize{
+width: 400px;
+height: 200px; 
+background-color: navajowhite;
+resize: horizontal;/* resize: vertical*/
+overflow: auto;
+min-width: 50px; /*suggest a min-width &amp; min-height*/
+min-height: 50px; 
+}
+
+.b-outline{
+margin-left: 50px;
+width: 200px;
+height: 100px;
+
+margin-top: 41px;
+outline: 5px double #8330FF;
+outline-offset: 20px;
+}
+
+.transition {
+width: 100px;
+height: 100px;
+background: red;
+/* For Safari 3.1 to 6.0 */
+-webkit-transition-property: width;
+-webkit-transition-duration: 2s;
+-webkit-transition-timing-function: linear;
+-webkit-transition-delay: 1s;
+/* Standard syntax */
+transition-property: width;
+transition-duration: 2s;
+transition-timing-function: linear;
+transition-delay: 1s;
+}
+
+.transition:hover {
+width: 300px;
+}
+
+.tranform{
+
+margin: 49px 0 0 333px;
+width: 100px;
+height: 100px;
+background: yellow;
+-moz-transform: scale(2) rotate(5deg) translateX(5px) translateY(5px) skewX(4deg) skewY(5deg);
+-webkit-transform: scale(2) rotate(5deg) translateX(5px) translateY(5px) skewX(4deg) skewY(5deg);
+-o-transform: scale(2) rotate(5deg) translateX(5px) translateY(5px) skewX(4deg) skewY(5deg);
+-ms-transform: scale(2) rotate(5deg) translateX(5px) translateY(5px) skewX(4deg) skewY(5deg);
+transform: scale(2) rotate(5deg) translateX(5px) translateY(5px) skewX(4deg) skewY(5deg);
+}
+
+.tranform:hover{
+width: 100px;
+}
+
+.flex-container {
+display: -webkit-flex;
+display: flex;
+width: 400px;
+height: 250px;
+background-color: lightgrey;
+}
+
+.flex-item {
+background-color: cornflowerblue;
+width: 100px;
+height: 100px;
+margin: 10px;
+}
+
+.gra{
+height: 50px;
+width: 500px;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+29,207cca+69,7db9e8+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 29%, #207cca 69%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 29%,#207cca 69%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1e5799 0%,#2989d8 29%,#207cca 69%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+}
+
