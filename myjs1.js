@@ -40,7 +40,9 @@ var var1=true;//bool
 
 
 var d=new Date();
+document.write(d.getUTCDate());
 //alert(d);
+document.write("<br>");
 
 var time=d.getHours();
 //alert(time);
@@ -112,4 +114,38 @@ for(var i=0;i<10;i++)
         document.write(i+" ");
     }
 
+//string manipulation
 
+city="bangalore";
+//alert(city.toUpperCase());
+//stringname.length
+//text.indexOf("str") -- first occurrence of the str
+
+var name="a is an awesome person";
+var check=name.indexOf("an");
+//alert(check);
+document.write("<br>");
+
+
+var email="aishwarya.jayashankar@gmail.com";
+var checkat=email.indexOf("@");
+var checkdot=email.indexOf(".");
+
+if(checkat==-1||checkdot==-1||email.indexOf(" ")!=-1)
+    document.write("invalid email");
+else
+    document.write("valid email");
+document.write("<br>");
+
+//array
+var city=new Array("A","B",100,99);
+document.write(city[2]+"<br>Pop: "+city.pop()+"<br>Shift: "+city.shift()+"<br>Push: "+city.push("C")+"<br>Sort: "+city.sort()+"<br>");
+
+
+//objects
+//boolean, navigator, screen, doc, 
+
+document.write(navigator.appVersion+"<br>");
+document.write(navigator.javaEnabled()+"<br>");
+document.write(screen.width+"<br>"+screen.height);
+//window.open and close
