@@ -49,3 +49,23 @@ else
     {
         document.write("good evening");
     }
+
+//switch; more conditions, faster
+
+var day ="Monday";
+var a=parseInt(a);
+switch (day)
+    {
+        case "Monday":
+            document.write("Welcome to Monday");
+            break;
+        case "Thursday":
+            document.write("Welcome to Thursday");
+            break;
+         case "Friday":
+            document.write("Welcome to Friday");
+            break;   
+        default:
+            document.write("Define your day");
+    }
+
